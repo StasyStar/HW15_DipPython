@@ -1,0 +1,8 @@
+2024-10-25 22:20:12,590:DEBUG:In iteration 1: 1 x 1 = 1
+2024-10-25 22:20:12,590:DEBUG:In iteration 2: 1 x 2 = 2
+2024-10-25 22:20:12,590:DEBUG:In iteration 3: 2 x 3 = 6
+2024-10-25 22:20:12,590:DEBUG:In iteration 4: 6 x 4 = 24
+2024-10-25 22:20:12,590:DEBUG:In iteration 5: 24 x 5 = 120
+2024-10-25 22:20:12,590:INFO:Factorial of 5 is 120
+2024-10-25 22:20:12,590:WARNING:User try to input negative number: -1
+2024-10-25 22:20:12,590:ERROR:User try to input text: smth interesting
