@@ -17,7 +17,7 @@ def parse():
     user_parser.add_argument('-v', '--verbose', help='Enter "true" if you need information', default=False)
     user_parser.add_argument('-r', '--repeat', help='Enter a number of repetitions of the phrase', default=1)
     args = user_parser.parse_args()
-    verbose = args.verbose.lower() == 'true'
+    verbose = args.verbose.lower()
     repeat = int(args.repeat)
     return print_phrase(verbose, repeat)
 
@@ -33,6 +33,6 @@ if __name__ == '__main__':
     print(parse())
 
     # Пример вызова:
-    # python3 task4.py -v True -r 3
+    # python3 task4.py -v true -r 3
 
 
